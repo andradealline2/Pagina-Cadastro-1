@@ -1,10 +1,13 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,200;1,500&display=swap');
+
+
 
 
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 20;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 
@@ -25,10 +28,11 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 main h1 {
-  color:#8880FE;
+  color:#574deb;
   font-size: 3rem;
   margin-bottom: 3rem;
 
@@ -122,19 +126,21 @@ main form input[ type= "submit"] {
 }
 
 main form input[ type="submit"]:hover {
-  background: #5952d4;
+  background: #574deb;
 }
 
 section.images {
   display:flex;
   align-items: flex-end;
-  padding: 5rem;
+  padding: 8rem;
+  
 }
 
 section.images img {
-  width: 150%;
+  width: 100%;
 
 }
+
 
 section.images .circle {
   position: absolute;
@@ -142,8 +148,10 @@ section.images .circle {
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(45deg, #e8cbc0, #636fa4);
-  clip-path: circle(40% at right 80%);
+  background: linear-gradient(45deg, #f2dcd4, #384b9f);
+  clip-path: circle(70% at right 10%);
   z-index: -1;
 }
+
+
 
